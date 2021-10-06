@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    margin: 0;
+    background-color: #312E38;
+    color: #F4EDE8;
+}
+aside {
+    display: flex;
+    flex: 8;
+}
+.image {
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.container {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+}
+main {
+    flex: 7;
+
+    padding: 0 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+.main-content h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+.input-container input {
+    width: 340px;
+    height: 56px;
+    background-color: #232129;
+    border-radius: 10px;
+    border: 0;
+    color: #F4EDE8;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+    padding: 5px;
+}
+button {
+    width: 340px;
+    height: 56px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #FF9000;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    color: #312E38;
+    cursor: pointer;
+}
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 24px;
+}
+a {
+    text-decoration: none;
+    color: #F4EDE8;
+}
+.create-account a {
+    color: #FF9000;
+}
